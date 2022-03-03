@@ -3,11 +3,11 @@ import re
 
 
 def create_folder_structure():
-    folders = {'handlers': 'init.py',
-               'keyboards': 'init.py',
-               'middlewares': 'init.py',
+    folders = {'handlers': '__init__.py',
+               'keyboards': '__init__.py',
+               'middlewares': '__init__.py',
                'models': '',
-               'states': 'init.py',
+               'states': '__init__.py',
                }
     for folder, file in folders.items():
         pattern = r'\w{2,}'
